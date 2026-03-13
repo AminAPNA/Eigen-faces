@@ -2,7 +2,7 @@
 
 As you may concern, in many applications, independently of the possible presence of noise, a low-dimensional approximation of the data may be perfectly adequate for the task at hand, or becomes necessary because of limited computing resources. In this respect, **image recognition** is one of the most important applications of modern technology, in which **linear algebra** plays a key role. Linear algebra provides many tools for image recognition. Spectral properties, such as **eigenvalues** and **eigenvectors**, are able to detect core features of a picture. By using eigenvectors, we can analyze and compare images effectively. 
 
-In this exercise session, the goal is to find the most similar face in a dataset of famous people to a given face.
+The goal of this demo is to find the most similar face in a dataset of famous people to a given face.
 
 ---
 
