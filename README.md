@@ -11,3 +11,5 @@ To compare faces, we use the following distance measure between two images F1 an
 For more details about the process, you can refer to this YouTube video: [Eigenfaces Explained](https://www.youtube.com/watch?v=YVfI-NeoyEc&t=58s)
 
 A piece of MATLAB code "eigenface.m" has been provided to try out this interesting test. Take a picture of your face (or someone else's) and save it as `T.jpg` in the project folder. Provide a dataset of **299 celebrity images** and save them as `P1.jpg`, `P2.jpg`, ..., `P299.jpg`. Then run the MATLAB code. The program will compare your photo with the dataset of celebrity images and display the celebrity you most closely resemble.
+
+A poster is also included in the repository to provide a visual overview of the method used in this project.
