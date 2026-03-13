@@ -20,5 +20,3 @@
    - To identify a new face, project it into the eigenface space to get its weights.  
    - Compare these weights with those of known faces using a **distance metric** (e.g., Euclidean distance).  
    - The closest match determines the identity.
-
-## Visual Diagram
