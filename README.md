@@ -1,2 +1,29 @@
-# Eigen-faces
-Image recognition is one of the most significant applications of modern technology, and numerical linear algebra plays a central role in this process. By analyzing eigenvectors, we can represent and compare images efficiently.  Goal: Given a new face, identify the most similar face in a dataset of famous people.
+Eigenfaces is a classic method for face recognition using Principal Component Analysis (PCA). It reduces high-dimensional face images into a smaller set of key features that capture the most important variations among faces.
+
+How It Works
+
+Prepare the Data
+
+Convert each face image into a vector (e.g., a 100×100 grayscale image → 10,000-dimensional vector).
+
+Compute the mean face and subtract it from each image to center the data.
+
+Compute Eigenfaces
+
+Apply PCA to the centered data to find principal components.
+
+These components, called eigenfaces, represent the most significant variations in facial features (like eyes, nose, mouth, shadows, etc.).
+
+Project Faces into Face Space
+
+Each face is represented as a linear combination of eigenfaces, giving a set of weights.
+
+This provides a compact representation of the face.
+
+Recognize Faces
+
+To identify a new face, project it into the eigenface space to get its weights.
+
+Compare these weights with those of known faces using a distance metric (e.g., Euclidean distance).
+
+The closest match determines the identity.
