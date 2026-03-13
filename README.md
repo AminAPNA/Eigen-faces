@@ -12,4 +12,4 @@ For more details about the process, you can refer to this YouTube video: [Eigenf
 
 A piece of MATLAB code "eigenface.m" has been provided to try out this interesting test. Take a picture of your face (or someone else's) and save it as `T.jpg` in the project folder. Provide a dataset of **299 celebrity images** and save them as `P1.jpg`, `P2.jpg`, ..., `P299.jpg`. Then run the MATLAB code. The program will compare your photo with the dataset of celebrity images and display the celebrity you most closely resemble.
 
-A poster"https://github.com/AminAPNA/Eigen-faces/blob/main/Eigenfaces_Poster_Readme.pdf" is also included in the repository to provide a visual overview of the method used in this project.
+A [poster](https://github.com/AminAPNA/Eigen-faces/blob/main/Eigenfaces_Poster_Readme.pdf) is also included in the repository to provide a visual overview of the method used in this project.
